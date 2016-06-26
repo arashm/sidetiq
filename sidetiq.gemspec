@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.extensions    = []
 
   gem.add_dependency 'sidekiq',   '>= 4.0.0'
-  gem.add_dependency 'celluloid', '>= 0.17.3'
+  gem.add_dependency 'celluloid', '>= 0.17.4'
   gem.add_dependency 'ice_cube',  '~> 0.11.1'
 
   gem.add_development_dependency 'rake'
