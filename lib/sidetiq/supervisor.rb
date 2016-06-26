@@ -30,6 +30,7 @@ module Sidetiq
       def run!
         motd
         info "Sidetiq::Supervisor start"
+        Celluloid.boot
         super
       end
 
